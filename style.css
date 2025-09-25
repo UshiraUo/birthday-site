@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/resources/images/background.jpg) no-repeat;
+    background: url(background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #eee; 
@@ -37,3 +37,4 @@ img {
 h1 {
   margin-top: 5px;
 }
+
