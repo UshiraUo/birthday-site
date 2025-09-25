@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy birthday</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #d47676;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1em;
+      margin: 20px 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      display: inline-block;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      animation: fadeIn 2s ease-in-out;
+      max-width: 90%;
+      width: 400px;
+    }
+
+    .container img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: -10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #d47676;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #c05c5c;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .card {
+        padding: 20px;
+        width: 100%;
+      }
+
+      .container img {
+        max-width: 150px;
+      }
+
+      .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="container">
+      <img src="resources/images/cat.jpg" alt="Фото">
+    </div>
+    <h1>С днём рождения мой котёнок (´｡• ᵕ •｡`) ♡</h1>
+    <p>Нажми кнопочку мяв ( =ω=)</p>
+    <a href="mail.html" class="btn">Открыть письмо</a>
+  </div>
+</body>
+</html>
